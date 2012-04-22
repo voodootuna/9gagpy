@@ -2,6 +2,8 @@
 
 Dependencies:
 - Python 2.7
+- BeautifulSoup
+  http://www.crummy.com/software/BeautifulSoup/
 - PIL(Python Imaging Library)
   http://www.pythonware.com/products/pil/
 
