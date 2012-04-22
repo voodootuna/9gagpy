@@ -1,0 +1,14 @@
+9gagpy is a simple script that grabs the content of a specified hot/trending pages and crops out the the watermark.
+
+Dependencies:
+- Python 2.7
+- PIL(Python Imaging Library)
+  http://www.pythonware.com/products/pil/
+
+Example of usage:
+
+python 9gag.py hot
+
+or
+
+python 9gag.py trending
