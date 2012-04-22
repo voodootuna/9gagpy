@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from urllib2 import urlopen, HTTPError
@@ -19,7 +19,7 @@ def mainpage(sorting):
 			urlretrieve(content[i].img['src'], filename)
 			wmarkcrop(filename)
 		except HTTPError, e:
-			print "Error"
+			print "Error while downloading image", e
 
 def wmarkcrop(filename):
 	# size is width/height
